@@ -1,0 +1,49 @@
+div1{
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0.2);
+
+}
+div1{
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0.2);
+
+}
+div2{
+  text-align: center;
+}
+div8{background-color: rgb(149, 109, 109);}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  margin-bottom: 100px;
+  margin-right: 25px;
+  flex-basis: 350%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+div9
+{background-color: cyan;
+  text-align: center;
+}
+body{
+  margin-bottom: 100px;
+  margin-right: 25px;
+  flex-basis: 350%
+}
+.w3-container{
+background-color: teal;
+}
+
+

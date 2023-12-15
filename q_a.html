@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+  <title>FAQ Page</title>
+
+</head>
+<body>
+  <div class="container py-5">
+    <h1 class="text-center mb-4">TOP Questions</h1>
+    
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+            The fastest meal of the day?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Tacos
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+            What is Surströmming?
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Surströmming is a traditional Swedish dish that consists of fermented Baltic herring. It is known for its strong and pungent odor, earning it the reputation of being one of the smelliest foods in the world. The fermentation process involves preserving the herring in brine for several months, allowing beneficial bacteria to break down the fish proteins and create a distinct flavor.
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            How to make Sushi at home?
+
+          
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+              <a href="https://www.youtube.com/watch?v=nIoOv6lWYnk&ab_channel=Epicurious"class="btn btn-primary">watch a video lesson></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            What to add to soup?
+
+          
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+              <a href="https://www.youtube.com/watch?v=bowDQL6nf7Y&ab_channel=GordonRamsay"class="btn btn-primary">watch a video lesson></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    #train {
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body><div9><br><br><br><br><br>  <div class="shadow-lg p-4 mb-5 bg-white rounded">
+  
+<a href="index.html"button class="btn btn-primary" type="submit">back to home</a>
+</div9>
+
+  <img id="train" src="https://www.pngall.com/wp-content/uploads/2018/04/Soup-Download-PNG.png"> <br><br><br><br><br> </div>
+
+
+  <script>
+    train.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        train.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
